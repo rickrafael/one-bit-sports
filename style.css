@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+.icon-rock{
+  width: 40px;
+}
+
+.logo-obc {
+  width: 200px;
+}
+
+.buttons{
+  display: flex;
+  padding: 10px;
+}
+
+.button-head{
+  font-size: 20px;
+  padding: 10px;
+ background-color: rgb(30, 30, 30);
+ border-style: none;
+  color: white;
+}
